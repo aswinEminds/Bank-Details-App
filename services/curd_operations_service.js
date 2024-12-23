@@ -1,12 +1,12 @@
 // CRUDService.js
+import {firebase} from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
-import {auth} from '@react-native-firebase/auth';
 
 class CRUDService {
   // Create a new document
 
   static async getCurrentUserUid() {
-    const user = await auth().currentUser;
+    const user = firebase.auth().currentUser;
     console.log(user);
     if (user) {
       return user.uid; // Return the UID of the currently logged-in user

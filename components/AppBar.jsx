@@ -14,7 +14,7 @@ const AppBar = ({name}) => {
         }}
         name="chevron-left"
         size={30}
-        color="#313638"
+        color="white"
       />
       <Text style={styles.text}>{name}</Text>
     </View>
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   text: {
-    color: '#313638',
+    color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 2,

@@ -1,5 +1,4 @@
 // authService.js
-import firebase from '@react-native-firebase/app';
 import auth from '@react-native-firebase/auth';
 
 const signUp = async (name, email, password) => {

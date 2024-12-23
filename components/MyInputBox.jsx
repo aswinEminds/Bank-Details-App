@@ -55,8 +55,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: 'white',
-    borderColor: 'lightgrey',
+    borderColor: 'rgba(156, 155, 155, 0.5)',
     borderWidth: 1,
     borderRadius: 12,
     paddingHorizontal: 12,
@@ -64,7 +63,7 @@ const styles = StyleSheet.create({
   },
   inputStyle: {
     flex: 1,
-    color: 'black',
+    color: 'white',
     fontSize: 16,
     paddingVertical: 10,
   },
